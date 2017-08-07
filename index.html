@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>HangMan</title>
+  </head>
+  <body>
+    <form id="hangman">
+        <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+        <input id="guess" name="guess" type="submit" value="Guess" />
+        <button id="restart" name="restart" type="button">Restart</button>
+    </form>
+    <ul id="letters"></ul>
+    <p id="man"></p>
+    <p id="output" class="output"></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="common-Words.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
