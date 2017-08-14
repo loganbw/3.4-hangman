@@ -6,7 +6,7 @@
         /* start config options */
         availableLetters = "abcdefghijklmnopqrstuvwxyz";
         rounds = 9;
-      words = commonWords;
+      words = common-words;
         messages = {
             win: 'You win!',
             lose: 'Game over!',
