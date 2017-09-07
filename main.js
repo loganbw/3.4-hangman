@@ -1,5 +1,5 @@
 (function () {
-    "use strict";
+    // "use strict";
     var availableLetters, words, guessInput, guess, guessButton, lettersGuessed, lettersMatched, output, man, letters, rounds, currentWord, numLettersMatched, messages;
 
     function setup() {
